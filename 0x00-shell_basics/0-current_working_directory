@@ -1,0 +1,2 @@
+current_dir=/c/Users/OLALEKAN/Desktop/MyFiles/Docs/ALX Resources
+echo "Current working directory: $current_dir"
