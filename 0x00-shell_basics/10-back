@@ -1,5 +1,2 @@
 #!/bin/bash
-current_dir="$PWD
-cd /var
-export OLDPWD="$current_dir"
-echo "$OLDPWD"
+cd ../
