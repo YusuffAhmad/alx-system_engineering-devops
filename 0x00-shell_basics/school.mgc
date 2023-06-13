@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo '0 string SCHOOL' > school.magic
-file -C -m school.magic -o school.mgc
-rm school.magic
+file -C -m school.magic school.magic
+mv school.magic.mgc school.mgc
