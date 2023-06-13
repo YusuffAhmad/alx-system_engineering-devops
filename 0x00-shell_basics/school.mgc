@@ -1,3 +1,3 @@
 #!/bin/bash
-[[ $(find . -type f -exec dd if={} bs=1 count=6 2>/dev/null \; | grep -c '^SCHOOL$') -gt 0 ]] && echo "School data file found" || echo "No School data file found"
-
+0 string SCHOOL School data
+!:mime School
